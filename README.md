@@ -1,11 +1,11 @@
-# proxyit
+# r-proxy-cli
 一个本地的简单的反向代理cli，轻松调试app中的h5
 
 ## install
-`npm install -g proxyit`
+`npm install -g r-proxy-cli`
 
 ## usage
-`sudo proxyit <host> <port>`  
+`sudo proxy <host> <port>`  
 host: 线上环境域名  
 port: 本地开发环境端口
 
