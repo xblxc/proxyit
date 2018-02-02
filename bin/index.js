@@ -3,11 +3,11 @@
 var chalk = require('chalk');
 var program = require('commander');
 var exitHook = require('exit-hook');
-var host = require('./lib/host');
-var createProxyServer = require('./lib/create-proxy-server');
+var host = require('../lib/host');
+var createProxyServer = require('../lib/create-proxy-server');
 
 program
-  .version(require('./package.json').version, '-v, --version')
+  .version(require('../package.json').version, '-v, --version')
   .description('一个简单的反向代理cli（切记使用root权限运行，因为需要权限修改host）')
   .usage('<host> <port>')
   .on('--help', function () {
