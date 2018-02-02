@@ -1,14 +1,14 @@
 {
-  "name": "proxyit",
+  "name": "r-proxy-cli",
   "version": "1.0.0",
-  "description": "a proxy cli for host => local,..",
+  "description": "a proxy cli for host => local",
   "main": "./bin/index.js",
   "bin": {
-    "proxyit": "./bin/index.js"
+    "proxy": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./index.js www.google.com 8080"
+    "dev": "./bin/index.js www.google.com 8080"
   },
   "author": "xblxc",
   "license": "ISC",
