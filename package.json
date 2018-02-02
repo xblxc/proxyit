@@ -1,0 +1,27 @@
+{
+  "name": "proxyit",
+  "version": "1.0.0",
+  "description": "a proxy cli for host => local,..",
+  "main": "./bin/index.js",
+  "bin": {
+    "proxyit": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./index.js www.google.com 8080"
+  },
+  "author": "xblxc",
+  "license": "ISC",
+  "keywords": [
+    "host",
+    "proxy",
+    "cli"
+  ],
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.13.0",
+    "exit-hook": "^1.1.1",
+    "hostile": "^1.3.0",
+    "http-proxy": "^1.16.2"
+  }
+}
