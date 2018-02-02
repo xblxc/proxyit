@@ -17,7 +17,7 @@ program
     log();
     log('  Examples:');
     log();
-    log('    $ sudo proxyit www.example.com 8080');
+    log('    $ sudo proxy www.example.com 8080');
     log();
   })
 
